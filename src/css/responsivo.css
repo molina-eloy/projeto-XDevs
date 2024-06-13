@@ -1,0 +1,29 @@
+/*Fazer com que o site seja visível em todos os tipos de dispositivos, usar o plugin "responsive viewer" para analisar os tipos de tela de cada dispositivo*/
+
+@media (max-width: 620px) {
+    /*Só vai aplicar os estilos abaixo em telas de tamanho maximo de 620px*/
+
+    .cabecalho {
+        padding: 30px 0;
+        /*É a distancia entre o conteudo do elemento e sua borda*/
+    }
+
+    .personagens-slider {
+        padding: 0 15px;
+        gap: 10px;
+        /*Espaço entre os elementos de uma grid ou flexbox*/
+    }
+
+    .btn-seta {
+        width: 20px;
+        /*Largura*/
+        height: 20px;
+        /*Altura*/
+        padding: 20px;
+        /*Preenchimento*/
+    }
+
+    .lista-personagens {
+        height: 480px;
+    }
+}
